@@ -399,6 +399,13 @@ header {
   opacity: .5;
 }
 
+/* My Projects */
+
+.my-projects {
+  color: var(--clr-dark);
+  text-align: center;    
+}
+
 /* footer */
 
 .footer {
@@ -443,4 +450,5 @@ header {
 .social-list__link {
   padding: .5em;
 }
+
 
