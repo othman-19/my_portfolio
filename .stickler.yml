@@ -1,7 +1,0 @@
-
-# fixers:
-#     enable: true 
-
-linters:
-  stylelint:
-  csslint:
