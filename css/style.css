@@ -422,6 +422,10 @@ header {
   text-decoration: none;
 }
 
+.my-projects .btn { 
+  margin-bottom: 2px;
+}
+
 .footer__link {
   font-weight: var(--fw-bold);
 }
@@ -463,4 +467,8 @@ header {
   margin-right: auto;
 }
 
+.my-projects .intro {
+  margin-top: 20px;
+  border-top: rgb(189, 185, 185) 2px solid ;
+}
 
