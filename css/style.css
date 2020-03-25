@@ -136,7 +136,11 @@ header {
 }
 
 .logo {
-  max-width: 100px;
+  font-family: 'Share Tech Mono', monospace;
+  font-style: oblique;
+  max-width: 150px;
+  color: var(--clr-dark);
+  background-color: rgb(228, 225, 225);
 }
 
 .nav {
