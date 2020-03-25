@@ -1,4 +1,4 @@
-# [Othmane Namani]()
+# [Othmane Namani](https://othman-19.github.io/my_portfolio/#project3)
 ## React | Rails full-stack developer
 
 # What I do ?
@@ -32,7 +32,7 @@ Phone: +213780458241
 [LinkedIn](https://www.linkedin.com/in/othman-namani/) .
 [GitHub](https://github.com/othman-19) .
 [Twitter](https://twitter.com/ONaamani) .
-[Portfolio]() .
+[Portfolio](https://othman-19.github.io/my_portfolio/#project3) .
 
 
 
