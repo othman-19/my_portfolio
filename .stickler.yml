@@ -2,7 +2,7 @@
 linters:
   stylelint:
   csslint:
-  fixers:
+fixers:
     enable: true 
 
 # PLEASE DO NOT enable auto fixing options
