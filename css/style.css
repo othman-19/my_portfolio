@@ -183,7 +183,7 @@ header {
   cursor: pointer;
   position: absolute;
   position: fixed;
-  right: 1em;
+  right: 0.2em;
   top: 1em;
   z-index: 1000;
 }
@@ -237,6 +237,50 @@ header {
 .hamburger::after {
   bottom: 6px;
 }
+/* Fixed/sticky social media icons bar  */
+.icon-bar {
+  position: fixed;
+  right: 0.5em;
+  top: 50%;
+  z-index: 999;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 8px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.github {
+  background: rgb(15, 15, 15);
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.dev {
+  background: #425FDF;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
 
 /*  Intro section  */
 
@@ -281,6 +325,7 @@ header {
     width: calc(100% + 1.5em);
   }
 }
+
 
 /*  My services section  */
 
@@ -328,6 +373,9 @@ header {
 
   .service + .service {
     margin-left: 2em;
+  }
+  .icon-bar a {
+    padding: 12px;
   }
 }
 
